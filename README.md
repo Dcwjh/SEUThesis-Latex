@@ -1,5 +1,6 @@
 # 亲测可用，食用指南（WIndows11）
-详细介绍使用[东南大学研究室论文模板](https://github.com/TouchFishPioneer/SEU-master-thesis)
+详细介绍使用师兄的[东南大学研究室论文模板](https://github.com/TouchFishPioneer/SEU-master-thesis)，点击即可进入下载。
+你如果想省事，直接下载我的，只需要下载tex添加环境变量,安装字体就可以直接运行了。
 ## 下载TEX live
 [阿里云TEX live 镜像](https://mirrors.aliyun.com/CTAN/systems/texlive/Images/)
 
@@ -142,7 +143,7 @@ seumasterthesis.cls中的,如下图所示，如果不修改会导致找不到字
 ![](./figures/shuoming/6.png)
 也可以运行成功
 如果你不注释掉最后一行，你下次运行就会现实找不到这个文件，因为这个文件一开始就有的。
-log注释掉，是因为可以通过log查看错误出现在哪里。
+.log注释掉，是因为可以通过log查看错误出现在哪里。
 
 # SEU-master-thesis
 
