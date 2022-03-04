@@ -1,0 +1,94 @@
+\documentclass[algorithmlist,figurelist,tablelist,nomlist]{seumasterthesis}
+
+\begin{document}
+
+%% ----------------------------------------------------------------------------
+%%                                 Meta Data
+%% ----------------------------------------------------------------------------
+\categorynumber{TP15}           % Chinese Library Classification
+\UDC{001.9}                     % Universal Decimal Classification
+\secretlevel{公开}                % Secret Level
+\studentid{170001}              % Student Number
+
+%% ----------------------------------------------------------------------------
+%%                           Thesis Title and Spine
+%% ----------------------------------------------------------------------------
+\title
+    {东南大学 \LaTeX 论文题目修改}                                      % Thesis Title
+    {如何优雅地撰写硕士研究生毕业论文}                                          % Thesis Subtitle
+    {Southeast University \LaTeX ~Thesis Template User Manual}  % Thesis English Title
+    {How to Write a Master Thesis in an Elegant Way}            % Thesis English Subtitle
+
+\spine
+    {东南大学 \rotatebox{270}{\raisebox{2.5pt}{LaTeX}} 论文模板使用手册}      % Spine Title
+    {}                                                          % Spine Subtitle
+
+%% ----------------------------------------------------------------------------
+%%                             Author and Advidor
+%% ----------------------------------------------------------------------------
+\author
+    {秦川}                        % Author Name in Chinese
+    {Qin chuan}                 % Author Name in English
+
+\advisor
+    {张广军}                       % Advisor Name (Chinese)
+    {zhang guangjun}           % Advisor Name (English)
+    {Prof.}                     % Advisor Title (English)
+
+\coadvisor
+    {程光}                        % Co-advisor Name (Chinese)
+    {CHENG Guang}               % Co-advisor Name (English)
+    {Prof.}                     % Co-advisor Title (English)
+
+%% ----------------------------------------------------------------------------
+%%                              Thesis Defence
+%% ----------------------------------------------------------------------------
+\engthesistype{应用研究}            % Engineering Master Thesis Type
+\degreetype                     % Degree Type
+    {工学硕士}
+    {Master of Engineering}
+\major{生物医学工程}                  % First-level Discipline Name
+\submajor{神经信息工程}               % Second-level Discipline Name
+\defenddate{2020年1月20日}         % Defence Date
+\authorizedate{2020年1月23日}      % Degree Award Date
+\committeechair{齐康}             % Chairman of Defence Committee
+\reviewer{王建国}{韩冬青}             % Thesis Reviewer(s)
+\department                     % Faculty or Department
+    {网络空间安全学院}
+    {School of Cyberspace Security}
+% \seuthesisthanks                % Short Acknowledgement
+%     {本文的部分工作受国家自然基金 No. wdnmd666 的支持与帮助，在此表示感谢。}
+
+%% ----------------------------------------------------------------------------
+%%                                  Cover
+%% ----------------------------------------------------------------------------
+\makebigcover
+\makecover
+	
+%% ----------------------------------------------------------------------------
+%%                          Abstract and Contents
+%% ----------------------------------------------------------------------------
+\input{chapters/abstract}
+\tableofcontents
+\listofothers
+
+%% ----------------------------------------------------------------------------
+%%                                Main Body
+%% ----------------------------------------------------------------------------
+\mainmatter
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+\input{chapters/chapter5}
+\input{chapters/chapter6}
+
+%% ----------------------------------------------------------------------------
+%%            Acknowledgement, Appendix, Bibliography and Resume
+%% ----------------------------------------------------------------------------
+\input{chapters/acknowledgement}
+\thesisbib{seumasterthesis}
+\input{chapters/appendix}
+\input{chapters/resume}
+
+\end{document}
