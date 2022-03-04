@@ -1,5 +1,6 @@
 # 亲测可用，食用指南（WIndows11）
 详细介绍使用师兄的[东南大学研究室论文模板](https://github.com/TouchFishPioneer/SEU-master-thesis)，点击即可进入下载。
+
 你如果想省事，直接下载我的，只需要下载tex添加环境变量,安装字体就可以直接运行了。
 ## 下载TEX live
 [阿里云TEX live 镜像](https://mirrors.aliyun.com/CTAN/systems/texlive/Images/)
@@ -20,7 +21,7 @@
 
 ## 下载字体并导入
 字体下载
-下载字体点 [这里](https://pan.baidu.com/s/1UkZgWqMfpaEyr4V9vWa46g)  密码: agsv
+下载字体点 [这里]()  密码: agsv
 安装字体:将解压文件移进>C:/windows>Font目录下即可。
 
 ## VScode工作环境设置：
