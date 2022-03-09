@@ -12,9 +12,12 @@
 大约等待20分钟左右，看个人电脑，2个小时内一般都能安装好。
 ### 环境变量
 将你安装的tex中的bin，放到环境变量中，不会的自行百度（系统要找到.exe文件）。
-我的是![hs](./figures/shuoming/1.png)
+我的是
+
+![hs](./figures/shuoming/1.png)
 
 结果如下：
+
 ![sfg](./figures/shuoming/2.png)
 
 
@@ -129,19 +132,26 @@
 ```
 ## 最后修改一个文件
 seumasterthesis.cls中的,如下图所示，如果不修改会导致找不到字体
+
 ![](./figures/shuoming/3.png)
 
 ## 最后一步是运行
 - 第一种方式：
 点击运行，你需要到.tex文件下才会有这个按钮
+可以把删除的命令都删除掉，防止错误产生
+
 ![](./figures/shuoming/4.png)
+
 如果能成功，就可以生成main.pdf,却该文件内容和manual.pdf一样
 
 - 第二种方式
 你需要修改 make.bat文件的内容，
+
 ![](./figures/shuoming/5.png)
 最后在终端，命令行数据 .\make.bat
+
 ![](./figures/shuoming/6.png)
+
 也可以运行成功
 如果你不注释掉最后一行，你下次运行就会现实找不到这个文件，因为这个文件一开始就有的。
 .log注释掉，是因为可以通过log查看错误出现在哪里。
